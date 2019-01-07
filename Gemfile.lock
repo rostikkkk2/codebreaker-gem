@@ -1,3 +1,8 @@
+PATH
+  remote: .
+  specs:
+    codebreaker_rostik (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -23,6 +28,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
     rainbow (3.0.0)
+    rake (10.5.0)
     rspec (3.8.0)
       rspec-core (~> 3.8.0)
       rspec-expectations (~> 3.8.0)
@@ -61,13 +67,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.16)
+  codebreaker_rostik!
   fasterer
   i18n
   pry
-  rspec (~> 3.8)
+  rake (~> 10.0)
+  rspec (~> 3.0)
   rubocop
   rubocop-rspec
   simplecov
 
 BUNDLED WITH
-   1.16.2
+   1.17.1

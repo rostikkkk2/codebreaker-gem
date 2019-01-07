@@ -1,3 +1,3 @@
 require_relative 'autoload'
 
-Console.new.check_option
+CodebreakerRostik::Console.new.check_option
